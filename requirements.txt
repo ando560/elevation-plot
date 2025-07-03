@@ -1,0 +1,5 @@
+streamlit
+astropy
+astroplan
+matplotlib
+numpy
