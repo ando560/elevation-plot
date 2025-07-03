@@ -9,7 +9,7 @@ import requests
 from datetime import datetime
 from astropy import units as u
 
-st.set_page_config(page_title="天体高度プロッター（VSX版）", layout="wide")
+st.set_page_config(page_title="EL Plot（VSX版）", layout="wide")
 
 # --- VSXから座標を取得 ---
 def get_coordinates(target_name):
