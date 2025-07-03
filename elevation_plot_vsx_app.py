@@ -43,9 +43,6 @@ def get_coordinates(target_name):
 # --- 既定の天体 ---
 default_targets = {
     "AG Peg": ("21 51 01.9", "+12 37 32"),
-    "AX Per": ("01 36 22.7", "+54 15 02"),
-    "SS Lep": ("06 04 59.28", "-16 29 04"),
-    "V694 Mon": ("07 25 51", "-07 44 08.1")
 }
 # --- カスタム天体の状態保持 ---
 if "custom_targets" not in st.session_state:
