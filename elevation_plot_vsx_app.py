@@ -14,11 +14,11 @@ st.set_page_config(page_title="天体高度プロット（VSX版）", layout="wi
 # --- VSXから座標を取得 ---
 def get_coordinates(target_name):
     try:
-        # 通常の名前解決を試みる
+        # 通常の名前
         coord = SkyCoord.from_name(target_name)
         return coord
     except Exception:
-        # VSX API を使って解決を試みる
+        # VSX API 
         try:
             url = f"https://www.aavso.org/vsx/index.php?view=api.delim&ident={target_name}&delimiter=;"
             response = requests.get(url)
