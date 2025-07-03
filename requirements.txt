@@ -1,5 +1,7 @@
 streamlit
-astropy
-astroplan
-matplotlib
+beautifulsoup4
+requests
+pandas
 numpy
+matplotlib
+astropy
